@@ -1,0 +1,41 @@
+{
+  "name": "landingpage",
+  "version": "0.1.1",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "lint": "vue-cli-service lint",
+    "build:dev": "vue-cli-service build --mode 'development'",
+    "build:prod": "vue-cli-service build --modern"
+  },
+  "dependencies": {
+    "bwip-js": "^1.7.1",
+    "debug": "^4.1.1",
+    "sass-resources-loader": "^2.0.0",
+    "vue": "^2.5.17",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-click-outside": "^1.0.7",
+    "vue-moment": "^4.0.0",
+    "vue-router": "^3.0.1",
+    "vue-swiper": "^0.5.0",
+    "vue-video-module": "^0.4.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.1.1",
+    "@vue/cli-plugin-eslint": "^3.1.1",
+    "@vue/cli-service": "^3.6.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "chromedriver": "^2.46.0",
+    "copy-webpack-plugin": "^4.5.2",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "graphql-tag": "^2.9.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.0.1",
+    "shelljs": "^0.8.2",
+    "vue-cli-plugin-apollo": "^0.18.1",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "commitVersion": ""
+}

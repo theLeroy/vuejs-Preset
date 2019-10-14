@@ -1,0 +1,13 @@
+---
+applications:
+- name: landingpage
+  memory: 256M
+  buildpack: staticfile_buildpack
+  path: dist/
+  routes:
+  - route: xx
+  - route: xx
+  - route: xx
+  env:
+    NODE_ENV: production
+    

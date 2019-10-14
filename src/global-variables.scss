@@ -1,0 +1,31 @@
+
+//Main Colors
+$text: #fff;
+$subt: #B7C4D3;
+
+$ActionlinkColor: #FF8E8E;
+$darkgray: #12171D;
+$paddingonMobile: 4.5%;
+//Gradient
+
+// Transitions
+
+//Syles
+
+//Mixins
+// @mixin CardShadow() {
+//   box-shadow: 0px 2px 33px -7px rgba(0,0,0,.3);
+//   transition: box-shadow .1s ease-in-out;
+//   .dark & {
+//     box-shadow: 0px 2px 33px -7px rgba(0,0,0,.3);
+//   }
+// }
+
+
+@function str-replace($string, $search, $replace: '') {
+  $index: str-index($string, $search);
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+  }
+  @return $string;
+}
