@@ -1,5 +1,4 @@
-# traffy-dashboard
-
+# vuejs Preset
 ## Project setup
 ```
 npm install
